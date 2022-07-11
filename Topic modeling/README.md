@@ -24,3 +24,5 @@
 
 `python cal_tfidf.py --data SA_count220708.csv --date tfidf_2022_27`
 
+
+### 국내 뉴스 데이터 : 구상중
