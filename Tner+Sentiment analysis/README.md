@@ -27,6 +27,9 @@ NER Flow
 #### Result
 - 뉴스 문서에서 종목 관련된 문장을 추출하고 문장 내에서 ticker리스트를 함께 결과 생성
 
+![image](https://user-images.githubusercontent.com/103553532/178190584-f889df13-f3fa-4daa-b5b3-80686f2a69f9.png)
+
+
 
 
 
