@@ -47,6 +47,7 @@ https://huggingface.co/ProsusAI/finbert <- pretrained-model 출처
 - 문장 내에서 2개 이상의 ticker가 발생하면 어느 종목이 긍정이고 부정인지 알수가 없음 -> Realtion Extraction으로 ticker간의 관계 추출을 진행할 예정
 
 
+![image](https://user-images.githubusercontent.com/103553532/178198490-29f5eed6-eb32-4639-8fea-e8b888009c42.png)
 
   
 
