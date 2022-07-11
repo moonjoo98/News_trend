@@ -2,4 +2,4 @@
 
 Tner https://github.com/asahi417/tner < 출처
 
-`pip install tner`
+`!pip install tner`
