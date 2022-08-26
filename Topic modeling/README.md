@@ -24,5 +24,9 @@
 
 `python cal_tfidf.py --data SA_count220708.csv --date tfidf_2022_27`
 
+### UPDATE
+#### (22/08/26) BERTopic 버전 업데이트로 새로운 기능 추가. 사전 텍스트 전처리에서 사후 전처리로 변경
+- hhierarchical_topics, get_topic_tree 기능을 활용해 계층적 주제 모델링 진행
+- BERTopic의 경우 사전 텍스트 전처리보다 사후 전처리를 진행할 시 토픽을 더 잘 나눌 수 있어 수정
 
 ### 국내 뉴스 데이터 : 구상중
