@@ -1,8 +1,8 @@
-# BERTopic을 활용해 국내 해외 뉴스 토픽 모델링
+# BERTopic을 활용해 해외 뉴스 토픽 모델링
 
 ### 해외 뉴스 데이터 : Yahoo finance, CNBC
 
-#### Foreign_news_bertopic.ipynb
+#### BERTopic_0.11.0V.ipynb
 - 주차 단위로 해외뉴스 토픽 모델링 진행, 뉴스 데이터셋마다 파라미터를 조정할 필요가 있으므로 ipynb파일로 생성
 
 #### sentiment_count.py -> 테마별 Ticker 감성 분류
@@ -24,9 +24,24 @@
 
 `python cal_tfidf.py --data SA_count220708.csv --date tfidf_2022_27`
 
+
+# BERTopic을 활용한 국내 뉴스 토픽 모델링
+
+### 국내 뉴스 데이터 : 네이버 파이낸스
+
+### KoBERTopic_0.11.0V.ipynb
+- 주차 단위로 국내 뉴스 토픽 모델링 진행, 마찬가지로 수집된 데이터셋마다 파라미터를 조정할 필요가 있으므로 ipynb파일로 생성
+
 ### UPDATE
-#### (22/08/26) BERTopic 버전 업데이트로 새로운 기능 추가. 사전 텍스트 전처리에서 사후 전처리로 변경
-- hhierarchical_topics, get_topic_tree 기능을 활용해 계층적 주제 모델링 진행
+#### (22/08/26) 해외 토픽 모델 고도화. 
+##### BERTopic 버전 업데이트로 새로운 기능 추가. 사전 텍스트 전처리에서 사후 전처리로 변경
+- hierarchical_topics, get_topic_tree 기능을 활용해 계층적 주제 모델링 진행
 - BERTopic의 경우 사전 텍스트 전처리보다 사후 전처리를 진행할 시 토픽을 더 잘 나눌 수 있어 수정
 
-### 국내 뉴스 데이터 : 구상중
+#### (22/08/29) 국내 토픽 모델 고도화.
+##### BERTopic 버전 업데이트로 새로운 기능 추가. 사전 텍스트 전처리에서 사후 전처리로 변경
+- hierarchical_topics, get_topic_tree 기능을 활용해 계층적 주제 모델링 진행
+- BERTopic의 경우 사전 텍스트 전처리보다 사후 전처리를 진행할 시 토픽을 더 잘 나눌 수 있어 수정
+
+
+
