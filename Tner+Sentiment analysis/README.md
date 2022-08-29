@@ -64,7 +64,7 @@ https://huggingface.co/ProsusAI/finbert <- pretrained-model 출처
 2. 유니버스 내의 종목이 없을 경우. 
 ![image](https://user-images.githubusercontent.com/103553532/187317829-e1ab86f9-d066-4065-8356-264d50e31848.png)
 
-#### 최종 output토픽별 Relation을 고려한 sentiment_score
+#### 최종 output. 토픽별 Relation을 고려한 sentiment_score
 ![image](https://user-images.githubusercontent.com/103553532/187317648-5b24b8a4-f7d4-4fa2-98cb-498f8de3c514.png)
 
 
