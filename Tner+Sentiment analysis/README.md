@@ -1,6 +1,6 @@
-# Tner과 Finbert를 활용한 NER + Sentiment analysis
+# Tner, Finbert, Ask2Transformers를 활용한 ticker sentiment analysis
 
-### Tner_change_ticker_papago.ipynb
+## Tner_change_ticker_papago.ipynb
 
 Tner https://github.com/asahi417/tner <- NER 모델 출처
 
@@ -32,7 +32,9 @@ NER Flow
 ![image](https://user-images.githubusercontent.com/103553532/178190584-f889df13-f3fa-4daa-b5b3-80686f2a69f9.png)
 
 
-### Finbert_training.ipynb
+## Finbert_training.ipynb
+
+
 
 https://huggingface.co/ProsusAI/finbert <- pretrained-model 출처
 
@@ -44,12 +46,21 @@ https://huggingface.co/ProsusAI/finbert <- pretrained-model 출처
 #### later..
 - 직접 수집하는 Finance news데이터에 대한 라벨링을 직접 함으로써 task에 맞는 데이터셋을 구축하고 fine-tuning 진행시 성능 향상을 기대할 수 있음.(추후 시도)
 
-- 문장 내에서 2개 이상의 ticker가 발생하면 어느 종목이 긍정이고 부정인지 알수가 없음 -> Realtion Extraction으로 ticker간의 관계 추출을 진행할 예정
+- 문장 내에서 2개 이상의 ticker가 발생하면 어느 종목이 긍정이고 부정인지 알수가 없음 -> Realtion Extraction으로 ticker간의 관계 추출을 진행할 예정(a2t)
 
 
 ![image](https://user-images.githubusercontent.com/103553532/178198490-29f5eed6-eb32-4639-8fea-e8b888009c42.png)
 
-  
+## a2t.ipynb
+#### A Framework for Textual Entailment based Zero Shot text classification
+- https://github.com/osainz59/Ask2Transformers <- Ask2Transformers 출처
+
+- 문장 내에서 2개 이상의 ticker 관계를 추출하기 위해 a2t모델 활용. zero-shot모델이기 때문에 fine-tuning해야하는 cost가 발생하지 않음
+- 직접 라벨을 정의해서 모델이 원하는 관계를 예측할 수 있도록 함.
+
+
+
+
 
 
 
