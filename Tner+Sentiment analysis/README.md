@@ -58,6 +58,17 @@ https://huggingface.co/ProsusAI/finbert <- pretrained-model 출처
 - 문장 내에서 2개 이상의 ticker 관계를 추출하기 위해 a2t모델 활용. zero-shot모델이기 때문에 fine-tuning해야하는 cost가 발생하지 않음
 - 직접 라벨을 정의해서 모델이 원하는 관계를 예측할 수 있도록 함.
 
+#### X, Y에 NAN값이 많은 이유는 Ticker로 변환하는 과정에서 특정 유니버스내의 종목만 티커로 변환했기 때문이다.
+- NAN으로 값이 반환되는 경우
+1. 기업이 아닌 필요없는 ORG.  
+2. 유니버스 내의 종목이 없을 경우. 
+![image](https://user-images.githubusercontent.com/103553532/187317829-e1ab86f9-d066-4065-8356-264d50e31848.png)
+
+#### 최종 output토픽별 Relation을 고려한 sentiment_score
+![image](https://user-images.githubusercontent.com/103553532/187317648-5b24b8a4-f7d4-4fa2-98cb-498f8de3c514.png)
+
+
+
 
 
 
