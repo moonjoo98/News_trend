@@ -67,8 +67,11 @@ https://huggingface.co/ProsusAI/finbert <- pretrained-model 출처
 #### 최종 output. 토픽별 Relation을 고려한 sentiment_score
 ![image](https://user-images.githubusercontent.com/103553532/187317648-5b24b8a4-f7d4-4fa2-98cb-498f8de3c514.png)
 
+## (22/08/31) KR_sentiment_classifier_BETA.ipynb
 
-
+#### 해외 뉴스와 마찬가지로 문장단위 감성 분석이 필요함.
+- 기존 klue/bert모델에 데이터셋을 fine-tuning을 진행 -> 기존 Github: https://github.com/park-gb 참고
+- 수집하고 있는 국내 뉴스 기사를 문장단위로 분석하기 위해 kss 패키지 활용
 
 
 
