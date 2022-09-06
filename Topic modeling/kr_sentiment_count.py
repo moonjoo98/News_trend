@@ -86,12 +86,13 @@ def call_data(data):
     TEST.dropna(subset=['대표 키워드 (해시태그)'],how='any',axis=0,inplace=True)
     TEST['종목']=TEST.종목.str.replace(',',' ')
     
-    
+
     for i in range(TEST.shape[0]):
         symbol_list=[]
         count=len(TEST.종목[i].split())
         for j in range(count):
-            symbol=TEST.종목[i].split()[j].lstrip('0')
+            symbol=TEST.종목[i].split()[j].lstrip('A')
+            symbol=symbol.lstrip('0')
             symbol_list.append(symbol)
         TEST.at[i,'종목']=symbol_list
         
