@@ -5,7 +5,7 @@
 
 2. NER(Tner)
 
-3.Sentiment Analysis(finBERT)
+3. Sentiment Analysis(finBERT)
 
 4. Realtion Extraction(zero-shot model Ask2Transformers)
 
