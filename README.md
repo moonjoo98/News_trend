@@ -1,7 +1,7 @@
 # 국내 해외 뉴스 토픽 모델링 및 감성분석
 
 ### Task 
-1. Topic modeling (BERTopic,KoBERTopic)
+1. Topic modeling (BERTopic, KoBERTopic)
 
 2. NER(Tner)
 
