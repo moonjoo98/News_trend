@@ -2,7 +2,9 @@
 
 ### Task 
 
-##### 뉴스트렌드 분석을 위한 AI 모델 개발
+##### 뉴스 트렌드 분석을 위한 AI 모델 개발 (개인 추가 프로젝트)
+- 뉴스 트렌드 분석과 뉴스 문서 내 stock ticker 추출과 ticker 별 관계 추출 후 sentiment analysis.
+- 위의 과정을 통해 특정 기간 내에 ticker 빈도 수 와 sentiment score 측정
 
 1. Topic modeling (BERTopic, KoBERTopic) 
 
