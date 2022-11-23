@@ -2,9 +2,9 @@
 
 ### Task 
 
-##### 뉴스 트렌드 분석을 위한 데이터 수집 및 AI 알고리즘 개발 및 설계 (모델링)
+##### 뉴스트렌드 분석을 위한 AI 모델 개발
 
-1. Topic modeling (BERTopic, KoBERTopic)
+1. Topic modeling (BERTopic, KoBERTopic) 
 
 2. NER(Tner)
 
