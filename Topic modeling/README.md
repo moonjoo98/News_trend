@@ -7,6 +7,8 @@
 #### [Project] BERTopic_CNBC.ipynb
 - 주차 단위로 해외뉴스 토픽 모델링 진행, 뉴스 데이터셋마다 파라미터를 조정할 필요가 있으므로 ipynb파일로 생성
 
+#### BERTopic 블로그 링크 https://mz-moonzoo.tistory.com/23
+
 #### sentiment_count.py -> 테마별 Ticker 감성 분류
 ###### 필요한 데이터셋
 - Ticker별 감성 스코어 Data -> 감성어사전 기반, DL 기반 감성분석으로 주차별 Ticker 감성 스코어를 계산한 파일
@@ -25,8 +27,6 @@
 (Linux ubuntu)
 
 `python cal_tfidf.py --data SA_count220708.csv --date tfidf_2022_27`
-
-#### BERTopic 블로그 링크 https://mz-moonzoo.tistory.com/23
 
 
 # BERTopic을 활용한 국내 뉴스 토픽 모델링
