@@ -1,7 +1,7 @@
 # Tner, Finbert, Ask2Transformers를 활용한 ticker sentiment analysis
 
 데이터 확보가 되지 않은 시점 fine-tuning을 진행하지 않고 pretrained된 모델로 inference를 진행했습니다.</br>
-활용한 finbert, tner 모두 원하는 task에 맞는 데이터셋으로 학습된 pretrained모델이 이미 존재하고 있어 별도의 fine-tuning없이 inference를 진행해 활용했습니다.</br>
+활용한 finbert, tner 모두 원하는 task에 맞는 데이터셋으로 학습된 모델이 있어 별도의 fine-tuning없이 inference를 진행해 활용했습니다.</br>
 단, tner의 경우 제공하는 데이터셋을 활용해 fine-tuning을 진행하긴했습니다.</br>
 결과를 보시면 fine-tuning을 하지 않아도 괜찮은 결과가 나오는 것을 확인할 수 있습니다.
 
