@@ -26,10 +26,6 @@
 
 `python cal_tfidf.py --data SA_count220708.csv --date tfidf_2022_27`
 
-# UPDATE
-(2023/02/13) 당일에 직접 수집한 CNBC 뉴스기사로 BERTopic 실습 진행한 파일 업로드.
-- 블로그에 코드 리뷰까지 함께 작성해둠.
-
 #### BERTopic 블로그 링크 https://mz-moonzoo.tistory.com/23
 
 
@@ -37,8 +33,10 @@
 
 #### 국내 뉴스 데이터 : 네이버 파이낸스
 
-### KoBERTopic_0.11.0V.ipynb
+### [Project] KOBERTopic_한국뉴스 + 팔로업 뉴스 추천 시스템.ipynb
 - 주차 단위로 국내 뉴스 토픽 모델링 진행, 마찬가지로 수집된 데이터셋마다 파라미터를 조정할 필요가 있으므로 ipynb파일로 생성
+
+#### KoBERTopic 블로그 링크 https://mz-moonzoo.tistory.com/24
 
 # UPDATE
 #### (22/08/26) 해외 토픽 모델 고도화. 
@@ -65,3 +63,13 @@
 - Spacy의 lemma, tag를 통해 명사만 추출
 - vectorizer ngram_range(1,1)로 수정
 
+#### (2023/02/13) 당일에 직접 수집한 CNBC 뉴스기사로 BERTopic 실습 진행한 파일 업로드.
+- 블로그에 코드 리뷰까지 함께 작성해둠.
+
+#### (2023/02/14) 빅카인즈에서 수집한 국내 뉴스 기사로 KoBERTopic 실습 진행한 파일 업로드.
+- 블로그에 코드 리뷰까지 함께 작성해둠.
+
+#### (2023/02/14) KoBERTopic내의 DACON 삼성전자 추천 뉴스 앱 코드공유 아이디어 적용
+- 토픽의 핵심기사 내용을 보면서 헷갈리는 토픽의 주제를 쉽게 파악할 수 있을 거 같아서 적용해봤음.
+- DACON 원본 글 https://dacon.io/competitions/official/235914/codeshare/5728 
+- 팔로업 뉴스 추천 시스템 등 아이디어를 참고해서 새로운 서비스를 개발하는데 도움이 될 것 같아서 KoBERTopic파일 내에 코드를 작성함.
