@@ -34,12 +34,15 @@
 
 - 위에서 학습한 모델을 저장하고 불러와서 Inference를 진행했습니다.
 - 직접 전체 뉴스 기사를 수집했을 경우 사용하기에 적합한 파일입니다.
-- 테스트한 한국 뉴스 데이터는 TEXT가 짧거나 이미 문장 단위로 나눠져 있어서 문장 단위로 기사를 짜를 필요가 없었습니다.
+- 테스트한 한국 뉴스 데이터는 TEXT가 짧거나 이미 문장 단위로 나눠져 있어서 문장 단위로 기사를 짜르는 것이 큰효과를 보지는 못했습니다.
 
 #### Review
-![image](https://user-images.githubusercontent.com/103553532/218951035-683a4431-66d4-40da-91a9-610d6fe3b426.png)
+![image](https://user-images.githubusercontent.com/103553532/218956086-d290cd00-35a6-4e1b-8ccd-883537521815.png)
 
-![image](https://user-images.githubusercontent.com/103553532/218951099-359e4bb2-1bf0-4343-94ae-87c4a54fe70b.png)
+![image](https://user-images.githubusercontent.com/103553532/218956210-bc31c5c8-ef06-434d-aae3-71319c90296b.png)
+
+![image](https://user-images.githubusercontent.com/103553532/218956342-c0d758b3-ad86-4a6a-9c38-1d5a5b15c20f.png)
+
 
 - 감성분류는 학습 데이터셋이 부족함에도 불구하고 아주 잘하는 것으로 보였습니다. 추가 학습을 진행하면 더 좋은 성능을 기대할 수 있을 것 같습니다.
 - NER의 경우 괜찮은 성능을 보이지만 100개중 3~4개 정도 B-ORG를 잡아내지못하고 I-ORG만 잡아내는 경우가 있습니다.
