@@ -73,3 +73,6 @@
 - 토픽의 핵심기사 내용을 보면서 헷갈리는 토픽의 주제를 쉽게 파악할 수 있을 거 같아서 적용해봤음.
 - DACON 원본 글 https://dacon.io/competitions/official/235914/codeshare/5728 
 - 팔로업 뉴스 추천 시스템 등 아이디어를 참고해서 새로운 서비스를 개발하는데 도움이 될 것 같아서 KoBERTopic파일 내에 코드를 작성함.
+
+#### (2023/02/16) hierarchical을 사용해서 BERTopic의 토픽간의 distance가 x(가까울)경우 하나의 토픽으로 합치는 process 추가
+- 토픽의 수가 너무 많아서 모든 토픽을 하나씩 살펴보기엔 시간이 아까울 경우 hierarchical의 distance를 사용해 거리가 가까운 토픽을 하나의 토픽으로 병합
